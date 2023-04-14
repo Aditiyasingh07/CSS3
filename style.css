@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+.welcome{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+    background-color: white;
+    padding: 15px 0;
+    border: 5px solid red;
+    border-radius: 20px;
+    color: rgb(156, 5, 5);
+    box-shadow: 7px 5px purple;
+}
+.welcome h1{
+    text-shadow: 2px 2px 3px rgb(156, 5, 5);
+}
+.hr{
+    margin: 5px;
+    border-top: 1px solid white;
+}
+.hero{
+    border: 5px solid green;
+    height: 500px;
+    position: relative;
+}
+.hero .address{
+    border: 5px solid red;
+    width: 200px;
+    color: rgb(72, 0, 0);
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 7px 7px 30px 7px;
+    line-height: 35px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px blueviolet;
+    box-shadow: 7px 5px purple;
+}
+.hero .pic{
+    position: absolute;
+    top: 0;
+    right: 70px;
+    border: 5px solid red;
+    width: 200px;
+    height: 170px;
+    float: right;
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 7px 7px 30px 7px;
+    line-height: 35px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 7px 5px purple;
+}
+.hero .pic img{
+    position: absolute;
+    top: 30px;
+    left: 12px;
+    height: 110px;
+    width: 170px;
+    padding: 5px 10px 10px 5px;
+    box-sizing: border-box;
+}
+.hero .store{
+    position: absolute;
+    bottom: 25px;
+    border: 5px solid red;
+    width: 200px;
+    color: black;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 0 20px 0;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px blueviolet;
+    box-shadow: 7px 5px purple;
+}
+.hero .rate{
+    position: absolute;
+    bottom: 13px;
+    right: 70px;
+    border: 5px solid red;
+    width: 200px;
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 7px 7px 55px 7px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px blueviolet;
+    box-shadow: 7px 5px purple;
+}
+.rate p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rate label{
+    font-size: 13px;
+    display: block;
+}
+.rate input{
+    text-align: center;
+    width: 110px;
+    margin: auto;
+}
+.rate label{
+    margin-top: 15px;
+}
+.rate button{
+    background-color: red;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+.sticky{
+    position: fixed;
+    left: 400px;
+    bottom: 1px;
+    border: 5px solid red;
+    width: 450px;
+    height: 90px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    box-shadow: 7px 5px purple;
+}
+.sticky .first{
+    margin: 20px 20px 0px 30px;
+    font-size: 1.5rem;
+    width: 220px;
+    font-weight: bold;
+    text-align: center;
+}
+.sticky .second{
+    position: absolute;
+    font-weight: bold;
+    left: 280px;
+    top: 15px;
+    margin: 0px 5px 0px 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    bottom: 60px;
+    width: 150px;
+}
+.first, .second p{
+    font-style: italic;
+    color: rgb(166, 0, 0);
+}
+.footer{
+    border: 7px solid purple;
+    margin: auto;
+    width: 800px;
+    background-color: green;
+}
+.fruits, .vegetables, .Other{
+    background-color: rgb(165, 165, 66);
+    height: 250px;
+}
+.footer h2{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0px;
+    margin: 20px 0 0 0;
+    font-style: italic;
+}
+.footer h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 30px 0;
+}
+.footer p{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.container .up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.up .fruits{
+    height: 310px;
+    width: 49%;
+}
+.up .vegetables{
+    height: 310px;
+    width: 49%;
+}
+.down .Other{
+    box-sizing: content-box;
+    margin-top: -5px;
+    width: 100.9%;
+    padding-bottom: 25px;
+}
+.down .Other h2{
+    padding-top: 30px;
+}
