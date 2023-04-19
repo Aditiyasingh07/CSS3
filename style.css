@@ -27,12 +27,16 @@ body{
 }
 .hero{
     border: 5px solid green;
-    height: 500px;
-    position: relative;
+    height: 650px;
 }
-.hero .address{
+.box{
+    height: 220px;
+    width: 220px;
     border: 5px solid red;
-    width: 200px;
+    border-radius: 20px;
+}
+.address{
+    float: left;
     color: rgb(72, 0, 0);
     text-align: center;
     font-size: 1.2rem;
@@ -45,37 +49,20 @@ body{
     box-shadow: 7px 5px purple;
 }
 .hero .pic{
-    position: absolute;
-    top: 0;
-    right: 70px;
-    border: 5px solid red;
-    width: 200px;
-    height: 170px;
     float: right;
-    color: black;
-    text-align: center;
-    font-size: 1.2rem;
-    padding: 7px 7px 30px 7px;
-    line-height: 35px;
     background-color: white;
-    border-radius: 10px;
-    font-weight: bolder;
-    box-shadow: 7px 5px purple;
+    margin: 0 20px 0 0;
 }
-.hero .pic img{
-    position: absolute;
-    top: 30px;
-    left: 12px;
-    height: 110px;
-    width: 170px;
-    padding: 5px 10px 10px 5px;
-    box-sizing: border-box;
+.pic img{
+    position: relative;
+    top: 55px;
+    left: 15px;
+    width: 180px;
 }
-.hero .store{
-    position: absolute;
-    bottom: 25px;
-    border: 5px solid red;
-    width: 200px;
+.store{
+    margin-top: 150px;
+    clear: right;
+    float: left;
     color: black;
     font-size: 1.2rem;
     background-color: white;
@@ -85,12 +72,9 @@ body{
     text-shadow: 1px 1px 2px blueviolet;
     box-shadow: 7px 5px purple;
 }
-.hero .rate{
-    position: absolute;
-    bottom: 13px;
-    right: 70px;
-    border: 5px solid red;
-    width: 200px;
+.rate{
+    margin: 170px 70px 0 0;
+    float: right;
     color: black;
     text-align: center;
     font-size: 1.2rem;
@@ -158,6 +142,7 @@ body{
 .footer{
     border: 7px solid purple;
     margin: auto;
+    margin-top: 20px;
     width: 800px;
     background-color: green;
 }
@@ -182,12 +167,33 @@ body{
     text-align: center;
     margin-top: 20px;
 }
-.container .up{
+.container{
+    height: 580px;
+}
+.fruits{
+    margin-left: 3px;
+    height: 300px;
+    float: left;
+    clear: right;
+    width: 49%;
+}
+.vegetables{
+    width: 49%;
+    margin-right: 3px;
+    height: 300px;
+    float: right;
+}
+.Other{
+    margin-top: 15px;
+    float: left;
+    width: 101%;
+}
+/* .container .up{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-.up .fruits{
+} */
+/* .up .fruits{
     height: 310px;
     width: 49%;
 }
@@ -203,4 +209,4 @@ body{
 }
 .down .Other h2{
     padding-top: 30px;
-}
+} */
