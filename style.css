@@ -5,6 +5,7 @@
 }
 body{
     background-color: gray;
+    height: 1650px;
 }
 .welcome{
     width: 600px;
@@ -22,12 +23,13 @@ body{
     text-shadow: 2px 2px 3px rgb(156, 5, 5);
 }
 .hr{
-    margin: 5px;
+    margin: 5px 12px;
     border-top: 1px solid white;
 }
 .hero{
     border: 5px solid green;
     height: 650px;
+    margin: 0 10px;
 }
 .box{
     height: 220px;
@@ -109,7 +111,7 @@ body{
 .sticky{
     position: fixed;
     left: 400px;
-    bottom: 1px;
+    bottom: 50px;
     border: 5px solid red;
     width: 450px;
     height: 90px;
@@ -168,7 +170,7 @@ body{
     margin-top: 20px;
 }
 .container{
-    height: 580px;
+    height: 600px;
 }
 .fruits{
     margin-left: 3px;
@@ -186,5 +188,6 @@ body{
 .Other{
     margin-top: 15px;
     float: left;
+    height: 270px;
     width: 101%;
 }
