@@ -188,25 +188,3 @@ body{
     float: left;
     width: 101%;
 }
-/* .container .up{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-} */
-/* .up .fruits{
-    height: 310px;
-    width: 49%;
-}
-.up .vegetables{
-    height: 310px;
-    width: 49%;
-}
-.down .Other{
-    box-sizing: content-box;
-    margin-top: -5px;
-    width: 100.9%;
-    padding-bottom: 25px;
-}
-.down .Other h2{
-    padding-top: 30px;
-} */
